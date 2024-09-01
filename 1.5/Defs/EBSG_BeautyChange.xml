@@ -8,26 +8,13 @@
     </GeneDef>
 
     <GeneDef ParentName="EBSG_BeautyChangeBase">
-		<defName>EBSG_HyperAesthetism</defName>
-		<label>hyper aesthetism</label>
-		<description>Carriers of this gene constantly prioritize being in beautiful environments over everything else, leading them to become dissatisfied with the surrounding beauty unbelievably quickly while also taking longer than most to feel happy about the appearance of the area around them.</description>
-		<iconPath>EBSG/Gene_ExtremeAesthetism</iconPath>
-		<statFactors>
-			<EBSG_BeautyRiseRate>0.4</EBSG_BeautyRiseRate>
-            <EBSG_BeautyFallRate>2.5</EBSG_BeautyFallRate>
-		</statFactors>
-		<displayOrderInCategory>10.1</displayOrderInCategory>
-		<biostatMet>6</biostatMet>
-	</GeneDef>
-
-    <GeneDef ParentName="EBSG_BeautyChangeBase">
 		<defName>EBSG_SuperAesthetism</defName>
 		<label>super aesthetism</label>
 		<description>Carriers of this gene are constantly focusing on living in beautiful environments, leading them to become dissatisfied with the surrounding beauty super quickly while also taking longer than most to feel happy about the appearance of the area around them.</description>
 		<iconPath>EBSG/Gene_ExtremeAesthetism</iconPath>
 		<statFactors>
 			<EBSG_BeautyRiseRate>0.5</EBSG_BeautyRiseRate>
-            <EBSG_BeautyFallRate>2.25</EBSG_BeautyFallRate>
+            <EBSG_BeautyFallRate>2.0</EBSG_BeautyFallRate>
 		</statFactors>
 		<displayOrderInCategory>10.2</displayOrderInCategory>
 		<biostatMet>5</biostatMet>
@@ -40,7 +27,7 @@
 		<iconPath>EBSG/Gene_ExtremeAesthetism</iconPath>
 		<statFactors>
 			<EBSG_BeautyRiseRate>0.6</EBSG_BeautyRiseRate>
-            <EBSG_BeautyFallRate>2.0</EBSG_BeautyFallRate>
+            <EBSG_BeautyFallRate>1.8</EBSG_BeautyFallRate>
 		</statFactors>
 		<displayOrderInCategory>10.3</displayOrderInCategory>
 		<biostatMet>4</biostatMet>
@@ -53,7 +40,7 @@
 		<iconPath>EBSG/Gene_Aesthetism</iconPath>
 		<statFactors>
 			<EBSG_BeautyRiseRate>0.7</EBSG_BeautyRiseRate>
-            <EBSG_BeautyFallRate>1.75</EBSG_BeautyFallRate>
+            <EBSG_BeautyFallRate>1.6</EBSG_BeautyFallRate>
 		</statFactors>
 		<displayOrderInCategory>10.4</displayOrderInCategory>
 		<biostatMet>3</biostatMet>
@@ -66,7 +53,7 @@
 		<iconPath>EBSG/Gene_Aesthetism</iconPath>
 		<statFactors>
 			<EBSG_BeautyRiseRate>0.8</EBSG_BeautyRiseRate>
-            <EBSG_BeautyFallRate>1.5</EBSG_BeautyFallRate>
+            <EBSG_BeautyFallRate>1.4</EBSG_BeautyFallRate>
 		</statFactors>
 		<displayOrderInCategory>10.5</displayOrderInCategory>
 		<biostatMet>2</biostatMet>
@@ -79,7 +66,7 @@
 		<iconPath>EBSG/Gene_Aesthetism</iconPath>
 		<statFactors>
 			<EBSG_BeautyRiseRate>0.9</EBSG_BeautyRiseRate>
-            <EBSG_BeautyFallRate>1.25</EBSG_BeautyFallRate>
+            <EBSG_BeautyFallRate>1.2</EBSG_BeautyFallRate>
 		</statFactors>
 		<displayOrderInCategory>10.6</displayOrderInCategory>
 		<biostatMet>1</biostatMet>
@@ -91,7 +78,7 @@
 		<description>Carriers of this gene do not feel as concerned about beautiful environments compared to most, causing them to recover from being in an ugly environment a little faster while also taking longer to develop a negative opinion about said environment.</description>
 		<iconPath>EBSG/Gene_Philisthinism</iconPath>
 		<statFactors>
-			<EBSG_BeautyRiseRate>1.25</EBSG_BeautyRiseRate>
+			<EBSG_BeautyRiseRate>1.2</EBSG_BeautyRiseRate>
             <EBSG_BeautyFallRate>0.9</EBSG_BeautyFallRate>
 		</statFactors>
 		<displayOrderInCategory>10.7</displayOrderInCategory>
@@ -104,8 +91,8 @@
 		<description>Carriers of this gene do not feel as concerned about beautiful environments compared to most, causing them to recover from being in an ugly environment faster while also taking longer to develop a negative opinion about said environment.</description>
 		<iconPath>EBSG/Gene_Philisthinism</iconPath>
 		<statFactors>
-			<EBSG_BeautyRiseRate>1.50</EBSG_BeautyRiseRate>
-            <EBSG_BeautyFallRate>0.8</EBSG_BeautyFallRate>
+			<EBSG_BeautyRiseRate>1.4</EBSG_BeautyRiseRate>
+            <EBSG_BeautyFallRate>0.75</EBSG_BeautyFallRate>
 		</statFactors>
 		<displayOrderInCategory>10.8</displayOrderInCategory>
 		<biostatMet>-2</biostatMet>
@@ -117,8 +104,8 @@
 		<description>Carriers of this gene do not feel as concerned about beautiful environments compared to most, causing them to recover from being in an ugly environment a lot faster while also taking longer to develop a negative opinion about said environment.</description>
 		<iconPath>EBSG/Gene_Philisthinism</iconPath>
 		<statFactors>
-			<EBSG_BeautyRiseRate>1.75</EBSG_BeautyRiseRate>
-            <EBSG_BeautyFallRate>0.7</EBSG_BeautyFallRate>
+			<EBSG_BeautyRiseRate>1.6</EBSG_BeautyRiseRate>
+            <EBSG_BeautyFallRate>0.6</EBSG_BeautyFallRate>
 		</statFactors>
 		<displayOrderInCategory>10.9</displayOrderInCategory>
 		<biostatMet>-3</biostatMet>
@@ -130,8 +117,8 @@
 		<description>Carriers of this gene do not feel as concerned about beautiful environments compared to most, causing them to recover from being in an ugly environment extremely fast while also taking longer to develop a negative opinion about said environment.</description>
 		<iconPath>EBSG/Gene_ExtremePhilisthinism</iconPath>
 		<statFactors>
-			<EBSG_BeautyRiseRate>2.00</EBSG_BeautyRiseRate>
-            <EBSG_BeautyFallRate>0.6</EBSG_BeautyFallRate>
+			<EBSG_BeautyRiseRate>1.8</EBSG_BeautyRiseRate>
+            <EBSG_BeautyFallRate>0.4</EBSG_BeautyFallRate>
 		</statFactors>
 		<displayOrderInCategory>11.0</displayOrderInCategory>
 		<biostatMet>-4</biostatMet>
@@ -143,8 +130,8 @@
 		<description>Carriers of this gene do not feel as concerned about beautiful environments compared to most, causing them to recover from being in an ugly environment super fast while also taking longer to develop a negative opinion about said environment.</description>
 		<iconPath>EBSG/Gene_ExtremePhilisthinism</iconPath>
 		<statFactors>
-			<EBSG_BeautyRiseRate>2.25</EBSG_BeautyRiseRate>
-            <EBSG_BeautyFallRate>0.5</EBSG_BeautyFallRate>
+			<EBSG_BeautyRiseRate>2.0</EBSG_BeautyRiseRate>
+            <EBSG_BeautyFallRate>0.2</EBSG_BeautyFallRate>
 		</statFactors>
 		<displayOrderInCategory>11.1</displayOrderInCategory>
 		<biostatMet>-5</biostatMet>
